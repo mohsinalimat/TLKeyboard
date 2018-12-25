@@ -33,10 +33,6 @@ Pod::Spec.new do |s|
   s.source_files = 'TLKeyboard/TLComponentsKit/*'
 
 # 子库分层模板
-  s.subspec 'TLAddMenuView' do |m|
-      m.source_files = 'TLKeyboard/TLComponentsKit/TLAddMenuView/*'
-  end
-
   s.subspec 'TLPopoverView' do |m|
       m.source_files = 'TLKeyboard/TLComponentsKit/TLPopoverView/*'
   end

@@ -4,6 +4,8 @@
 [![Version](https://img.shields.io/cocoapods/v/TLKeyboard.svg?style=flat)](https://cocoapods.org/pods/TLKeyboard)
 [![License](https://img.shields.io/cocoapods/l/TLKeyboard.svg?style=flat)](https://cocoapods.org/pods/TLKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/TLKeyboard.svg?style=flat)](https://cocoapods.org/pods/TLKeyboard)
+
+## Preview 
 ![image](https://github.com/ylxieg/TLKeyboard/blob/master/example.gif)
 
 ##  Note
@@ -27,7 +29,7 @@ pod 'TLKeyboard'
 
 ## Author
 
-xieyingliang, ylxieg@isoftstone.com
+xieyingliang, 744890760@qq.com
 
 ## License
 
