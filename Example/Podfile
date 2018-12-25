@@ -1,0 +1,16 @@
+use_frameworks!
+inhibit_all_warnings!
+
+platform :ios, '8.0'
+
+target 'TLKeyboard_Example' do
+  pod 'TLKeyboard', :path => '../'
+  
+  pod 'MJExtension', '~> 3.0.15.1'
+
+  target 'TLKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,66 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - TLKeyboard (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLAddMenuView (= 0.1.0)
+    - TLKeyboard/TLChatBar (= 0.1.0)
+    - TLKeyboard/TLKeyborads (= 0.1.0)
+    - TLKeyboard/TLKit (= 0.1.0)
+    - TLKeyboard/TLPopoverView (= 0.1.0)
+    - TLKeyboard/TLServiceBar (= 0.1.0)
+  - TLKeyboard/TLAddMenuView (0.1.0):
+    - Masonry (~> 1.1.0)
+  - TLKeyboard/TLChatBar (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLKeyborads
+    - TLKeyboard/TLKit/TLCategories
+  - TLKeyboard/TLKeyborads (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLKit
+  - TLKeyboard/TLKit (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLKit/TLCategories (= 0.1.0)
+    - TLKeyboard/TLKit/TLFunctional (= 0.1.0)
+    - TLKeyboard/TLKit/TLShortcut (= 0.1.0)
+  - TLKeyboard/TLKit/TLCategories (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLKit/TLCategories/Foundation (= 0.1.0)
+    - TLKeyboard/TLKit/TLCategories/UIKit (= 0.1.0)
+  - TLKeyboard/TLKit/TLCategories/Foundation (0.1.0):
+    - Masonry (~> 1.1.0)
+  - TLKeyboard/TLKit/TLCategories/UIKit (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLKit/TLCategories/Foundation
+  - TLKeyboard/TLKit/TLFunctional (0.1.0):
+    - Masonry (~> 1.1.0)
+    - TLKeyboard/TLKit/TLCategories/UIKit
+    - TLKeyboard/TLKit/TLShortcut
+  - TLKeyboard/TLKit/TLShortcut (0.1.0):
+    - Masonry (~> 1.1.0)
+  - TLKeyboard/TLPopoverView (0.1.0):
+    - Masonry (~> 1.1.0)
+  - TLKeyboard/TLServiceBar (0.1.0):
+    - Masonry (~> 1.1.0)
+
+DEPENDENCIES:
+  - MJExtension (~> 3.0.15.1)
+  - TLKeyboard (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MJExtension
+
+EXTERNAL SOURCES:
+  TLKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  TLKeyboard: 0de029338f837ad4c965ceeded290a6e97197605
+
+PODFILE CHECKSUM: de57d89f843f9a8a20196d00234b20965468914f
+
+COCOAPODS: 1.5.3
