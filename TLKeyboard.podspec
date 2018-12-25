@@ -49,7 +49,8 @@ Pod::Spec.new do |s|
 
   s.subspec 'TLServiceBar' do |m|
       m.source_files = 'TLKeyboard/TLComponentsKit/TLServiceBar/*'
-    m.resource = 'TLKeyboard/TLComponentsKit/TLServiceBar/TLServiceBar.bundle'
+      m.resource = 'TLKeyboard/TLComponentsKit/TLServiceBar/TLServiceBar.bundle'
+      m.dependency 'TLKeyboard/TLKit'
   end
 
   s.subspec 'TLKeyborads' do |m|
@@ -70,6 +71,7 @@ Pod::Spec.new do |s|
           m.subspec 'UIKit' do |m|
               m.source_files = 'TLKeyboard/TLComponentsKit/TLKit/TLCategories/UIKit/**/*'
               m.dependency 'TLKeyboard/TLKit/TLCategories/Foundation'
+              m.dependency 'TLKeyboard/TLKit/TLShortcut'
           end
       end
       
