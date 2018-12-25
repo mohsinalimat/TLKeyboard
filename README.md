@@ -5,12 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/TLKeyboard.svg?style=flat)](https://cocoapods.org/pods/TLKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/TLKeyboard.svg?style=flat)](https://cocoapods.org/pods/TLKeyboard)
 
-## Preview 
-![image](https://github.com/ylxieg/TLKeyboard/blob/master/example.gif)
 
 ##  Note
 此Demo是整合TLChat的代码修改完成的。（内附了cocoaPods的spec模板，项目分层只是为了pods库美观。没有细分子库的依赖关系，单独安装子库可能会有问题）
 
+
+## Preview 
+![image](https://github.com/ylxieg/TLKeyboard/blob/master/example.gif)
 
 ## Example
 
